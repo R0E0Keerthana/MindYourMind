@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mind Your Mind</title>
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="icon" href="logo.png" type="image/png">
+
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Mind Your Mind Logo" class="logo">
+        <h1>Mind Your Mind</h1> <!-- Main Heading -->
+        <p class="tagline">RE-Wind Your Mind !</p> <!-- Tagline -->
+        <button id="signInBtn">Sign in with Google</button> <!-- Sign-in Button -->
+     </div>
+     
+
+  <script type="module">
+    import { signInWithGoogle } from "./firebase.js";
+  
+    // Debug: Check if button click is being detected
+    document.getElementById("signInBtn").addEventListener("click", () => {
+      console.log("Button clicked!"); // Check if this log appears
+      signInWithGoogle();
+    });
+  </script>
+</body>
+</html>

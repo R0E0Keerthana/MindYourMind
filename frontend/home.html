@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Mind Your Mind</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <div class="logout-container">
+        <button id="logoutBtn">Logout</button>
+      </div>
+      
+    <!-- Main Container -->
+    <div class="main-container">
+      <!-- Welcome & Profile Section (Top Section) -->
+<div class="welcome-profile">
+    <div class="welcome-message">
+      <h1>Release. Relax. Let Go: You're in the Right Place!</h1>
+      <br><br>
+      <h2>Looking amazing, <span id="userName"></span>!</h2>
+    </div>
+  </div>
+  
+      <!-- Features Section (Below Profile) -->
+      <div class="features">
+        <div class="row">
+          <div class="feature">
+            <h3>Daily Affirmations</h3>
+            <p>Positive messages to brighten your day!</p>
+            <button onclick="window.open('affirmations.html', '_blank')">Explore</button>
+          </div>
+          <div class="feature">
+            <h3>Journaling</h3>
+            <p>Express your thoughts and reflect on your day.</p>
+            <button>Start Journaling</button>
+          </div>
+          <div class="feature">
+            <h3>Warm Hug Jar</h3>
+            <p>Feel the warmth of anonymous positive messages.</p>
+            <button>Open Jar</button>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="feature">
+            <h3>Comfort Corner</h3>
+            <p>A safe space for relaxing and soothing activities.</p>
+            <button>Relax</button>
+          </div>
+          <div class="feature">
+            <h3>Chatbot</h3>
+            <p>Your virtual assistant for mental wellness support.</p>
+            <button>Chat Now</button>
+          </div>
+          <div class="feature">
+            <h3>Meditation Zone</h3>
+            <p>Explore calming audio and video meditation types.</p>
+            <button>Start Meditating</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<script src="firebase.js"></script>
+<script type="module" src="script.js"></script>
+  </body>  
+</html>
