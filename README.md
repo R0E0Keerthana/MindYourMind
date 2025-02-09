@@ -1,11 +1,11 @@
 # Mind Your Mind - Mental Health Wellness App
-A simple and soothing mental health wellness app designed to help users with daily affirmations, journaling, mood tracking, and more. It includes features like a warm hug jar, comfort corner, and chatbot to promote mental well-being.
+A simple and soothing mental health wellness app designed to help users with daily affirmations, journaling, mood tracking, and more. It includes features like a Proud Moments Jar, Comfort Corner, and Chatbot to promote mental well-being.
 
 ## Features
 * **Daily Affirmations**: Displays a random affirmation each time the page loads or on button click.
 * **Mood Tracker**: Track your daily mood and review trends over time.
 * **Journaling**: Option for voice or text journaling to reflect on your thoughts.
-* **Warm Hug Jar**: Send and receive anonymous positive messages stored in a "Warm Hug Jar."
+* **Proud Moments Jar**:  Store and revisit personal achievements with text/audio entries (saved as text), date & time stamps, and a random moment surprise feature.
 * **Comfort Corner**: A peaceful space with relaxing content and resources.
 * **Chatbot**: Interactive chatbot for emotional support and guidance.
 * **Meditation Zone**: Access meditation content like audio and videos for mindfulness.
