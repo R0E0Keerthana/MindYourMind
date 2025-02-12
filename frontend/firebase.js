@@ -5,8 +5,14 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.7.1/firebase
 
 // Firebase Configuration
 const firebaseConfig = {
-    //FIREBASE CONFIG DETAILS SKIPPED FOR PRIVACY REASONS
-    };
+    apiKey: "AIzaSyAruzOHqb4vPm_TQ6MERfarlDF_-UWE7vE",
+    authDomain: "mindyourmind-re.firebaseapp.com",
+    projectId: "mindyourmind-re",
+    storageBucket: "mindyourmind-re.firebasestorage.app",
+    messagingSenderId: "305416883539",
+    appId: "1:305416883539:web:0c31f6a16b2a18f78f25a6",
+    measurementId: "G-NE6R4X6SNL"
+  };
 
 
 // Initialize Firebase
