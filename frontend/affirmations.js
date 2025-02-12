@@ -1,4 +1,4 @@
-import { db } from './firebase.js'; // Import the Firestore instance from your firebase.js file
+import { db } from './firebase.js'; // Import the Firestore instance from firebase.js file
 import { collection, getDocs } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 // Function to fetch and display a random affirmation
