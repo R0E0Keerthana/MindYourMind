@@ -20,9 +20,8 @@
   <script type="module">
     import { signInWithGoogle } from "./firebase.js";
   
-    // Debug: Check if button click is being detected
     document.getElementById("signInBtn").addEventListener("click", () => {
-      console.log("Button clicked!"); // Check if this log appears
+      console.log("Button clicked!"); // log for debuggging
       signInWithGoogle();
     });
   </script>
