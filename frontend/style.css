@@ -1,6 +1,4 @@
-/* Global styles for the page */
-
-/* Optional logo at the top */
+/* logo at the top */
 .logo {
     width: 100px; /* Adjust size as needed */
     height: auto;
@@ -19,7 +17,7 @@ body {
     align-items: center;
 }
 
-/* Container for the content */
+
 .container {
     background-color: white;
     padding: 40px;
@@ -47,7 +45,7 @@ h1 {
     font-style: italic;
 }
 
-/* Unified Button Styles (Rounded, Soft Colors) */
+/* Unified Button Styles (Rounded, Soft Color) */
 button {
     background: linear-gradient(135deg, #f57c8f, #f48b94); /* Soft rose pink gradient */
     color: white;
@@ -124,7 +122,7 @@ button:active {
     font-style: italic;
 }
 
-/* Feature Section (Below Profile) */
+/* Feature Section */
 .features {
     display: flex;
     flex-direction: column;
@@ -157,7 +155,7 @@ button:active {
     margin-bottom: 20px;
 }
 
-/* Feature Button Styling (Unified) */
+/* Feature Button Styling */
 .feature button {
     background:#56cfe1; 
     color: white;
@@ -228,8 +226,3 @@ button:active {
     transform: translateY(2px);
 }
 
-/* Optional: If you want an icon with the button */
-.refresh-btn img {
-    width: 20px;
-    height: 20px;
-}
